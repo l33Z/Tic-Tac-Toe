@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>TicTacToe</li>
+        </ul>
+    </div>
+    <div class="mainContainer">
+        <div class="gameContainer">
+            <div class="game">
+                <div class="box bl bt"><span class="boxText"></span></div>
+                <div class="box bt"><span class="boxText"></span></div>
+                <div class="box bt br"><span class="boxText"></span></div>
+                <div class="box bl"><span class="boxText"></span></div>
+                <div class="box"><span class="boxText"></span></div>
+                <div class="box br"><span class="boxText"></span></div>
+                <div class="box bl bb"><span class="boxText"></span></div>
+                <div class="box bb"><span class="boxText"></span></div>
+                <div class="box bb br"><span class="boxText"></span></div>
+            </div>
+        </div>
+        <div class="infoContainer">
+            <p>Welcome To <span>Tic </span><span>Tac </span><span>Toe</span></p>
+            <p class="turnInfo" id="infoTurn">X's Turn</p>
+            <p class="resetBtn"> <a href="" target="">Reset</a></p>
+            <p id="won">X WON 😎</p>
+            <img src="excited.gif" alt="err" id="wonGif">
+
+        </div>
+    </div>
+    <footer>Designed & Devloped By Zeel Rabadiya</footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
